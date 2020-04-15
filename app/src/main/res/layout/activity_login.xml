@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.scoutsmanet.ilookstory.Login">
+<Toolbar
+    android:id="@+id/toolbar"
+    android:title=""
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</Toolbar>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="0.5"
+        android:background="#ffffff"
+        android:padding="65dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/watermarkblack" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@drawable/bg_gradasi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></RelativeLayout>
+        <TextView
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></RelativeLayout>
+        <EditText
+            android:paddingLeft="10dp"
+            android:background="@drawable/form"
+            android:drawableStart="@drawable/user"
+            android:hint=" Username"
+            android:layout_width="330dp"
+            android:layout_gravity="center"
+            android:layout_height="30dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></RelativeLayout>
+        <EditText
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:background="@drawable/form"
+            android:drawableStart="@drawable/key"
+            android:hint=" Password"
+            android:layout_width="330dp"
+            android:layout_height="30dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></RelativeLayout>
+        <TextView
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:text="Forgot Password?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></RelativeLayout>
+        <Button
+            android:textStyle="bold"
+            android:textColor="#1022a6"
+            android:background="@drawable/form"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:text="Login"
+            android:layout_width="100dp"
+            android:layout_height="35dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></RelativeLayout>
+        <TextView
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:text="Not have an acoount?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:text="Sign Up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
